@@ -41,7 +41,7 @@ public class StringMetthods {
 		// regEx("@$%%");
 		//splCharPos("W$l%co&me@");
 		
-		DatafromExcel getExcelData = new DatafromExcel();
+		DatafromExcel getExcelData = new DatafromExcel(); //comment
 		String data = getExcelData.getData("Data", "Two", "Test");
 		
 		System.out.println(data);
